@@ -55,7 +55,7 @@ def principal():
         contador = contador + 1
         lista2.append(contenido2)
     respuesta = super_puestos(lista1, lista2)
-    print(respuesta[0])
+    print(f"La cantidad de elementos que se superponen es de {respuesta[0]}")
     print(f"La posición inicial del elemento superpuesto es la N° {respuesta[1]}")
 if __name__ == "__main__":
     principal()
