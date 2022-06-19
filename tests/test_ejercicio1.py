@@ -40,7 +40,21 @@ def test_pares_e_impares_si_es_positivo_par():
     resultado = pares_e_impares(numero)
     assert isinstance(resultado, bool), "El resultado debe ser un valor booleano."
     assert resultado is True, "No se obtiene el resultado esperado."
-def test_pares_e_impares_si_es_negativo():
+def test_pares_e_impares_si_es_positivo_impar():
+    """Esta función verifica si pares_e_impares funciona correctamente.
+    """
+    numero = 7
+    resultado = pares_e_impares(numero)
+    assert isinstance(resultado, bool), "El resultado debe ser un valor booleano."
+    assert resultado is False, "No se obtiene el resultado esperado."
+def test_pares_e_impares_si_es_negativo_par():
+    """Esta función verifica si pares_e_impares funciona correctamente.
+    """
+    numero = -2
+    resultado = pares_e_impares(numero)
+    assert isinstance(resultado, bool), "El resultado debe ser un valor booleano."
+    assert resultado is True, "No se obtiene el resultado esperado."
+def test_pares_e_impares_si_es_negativo_impar():
     """Esta función verifica si pares_e_impares funciona correctamente.
     """
     numero = -1
