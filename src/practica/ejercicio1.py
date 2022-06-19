@@ -6,6 +6,7 @@
 def pares_e_impares(numero):
     """Esta función determina si el número ingresado
     es par o impar"""
+    numero = abs(numero)
     limite = numero
     contador = 0
     while contador != limite:
