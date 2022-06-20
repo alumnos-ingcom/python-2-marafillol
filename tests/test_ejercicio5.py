@@ -5,7 +5,7 @@
 """TEST EJERCICIO 5
 """
 from practica.ejercicio5 import balance_corchetes
-def test_balance_corchetes_True():
+def test_balance_corchetes_true():
     """Esta función verifica si balance_corchetes
     funciona correctamente.
     """
@@ -13,7 +13,7 @@ def test_balance_corchetes_True():
     resultado = balance_corchetes(texto)
     assert isinstance(resultado, bool), "El resultado debe ser un valor boleano."
     assert resultado is True, "No se obtiene el resultado esperado."
-def test_balance_corchetes_False():
+def test_balance_corchetes_false():
     """Esta función verifica si balance_corchetes
     funciona correctamente.
     """
@@ -21,7 +21,7 @@ def test_balance_corchetes_False():
     resultado = balance_corchetes(texto)
     assert isinstance(resultado, bool), "El resultado debe ser un valor boleano."
     assert resultado is False, "No se obtiene el resultado esperado."
-def test_balance_corchetes_con_texto_True():
+def test_balance_corchetes_con_texto_true():
     """Esta función verifica si balance_corchetes
     funciona correctamente.
     """
@@ -29,7 +29,7 @@ def test_balance_corchetes_con_texto_True():
     resultado = balance_corchetes(texto)
     assert isinstance(resultado, bool), "El resultado debe ser un valor boleano."
     assert resultado is True, "No se obtiene el resultado esperado."
-def test_balance_corchetes_con_texto_False():
+def test_balance_corchetes_con_texto_false():
     """Esta función verifica si balance_corchetes
     funciona correctamente.
     """
